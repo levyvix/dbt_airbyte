@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: dim_demo
+    database: database
+    schema: mysql
+    tables:
+      - name: customers
+      - name: employees
+      - name: offices
+      - name: orders
+      - name: orderdetails
+      - name: payments
+      - name: productlines
+      - name: products
