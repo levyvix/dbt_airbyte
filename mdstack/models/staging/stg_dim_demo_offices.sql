@@ -19,16 +19,6 @@ renamed as (
 
 
         'dim_demo.offices' as record_source
-        -- {{ adapter.quote("_airbyte_unique_key") }},
-        -- {{ adapter.quote("_ab_cdc_cursor") }},
-        -- {{ adapter.quote("_ab_cdc_log_pos") }},
-        -- {{ adapter.quote("_ab_cdc_log_file") }},
-        -- {{ adapter.quote("_ab_cdc_deleted_at") }},
-        -- {{ adapter.quote("_ab_cdc_updated_at") }},
-        -- {{ adapter.quote("_airbyte_ab_id") }},
-        -- {{ adapter.quote("_airbyte_emitted_at") }},
-        -- {{ adapter.quote("_airbyte_normalized_at") }},
-        -- {{ adapter.quote("_airbyte_offices_hashid") }}
 
     from source
 )
